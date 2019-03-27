@@ -19,7 +19,7 @@
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="https://github.com/viandwi24" class="nav-link">Github</a>
+                    <a href="https://github.com/viandwi24/vqrcode" class="nav-link">Github</a>
                 </li>
             </ul>
         </div>
