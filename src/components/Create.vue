@@ -16,7 +16,7 @@
                                 <input v-model="text" type="text" class="form-control">
                             </div>
                             <div class="row">
-                                <div class="col-3">
+                                <div class="col-lg-3 col-md-6 col-sm-12">
                                     <div class="form-group mb-3">
                                         <label>Size :</label>
                                         <select class="form-control" v-model="sizeRender">
@@ -26,7 +26,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3 col-md-6 col-sm-12">
                                     <div class="form-group mb-3">
                                         <label>Margin :</label>
                                         <select class="form-control" v-model="margin">
@@ -36,7 +36,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3 col-md-6 col-sm-12">
                                     <div class="form-group mb-3">
                                         <label>Error Correction Level :</label>
                                         <select class="form-control" v-model="errorCorrectionLevel">
@@ -46,7 +46,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3 col-md-6 col-sm-12">
                                     <div class="form-group mb-3">
                                         <label>Mask Pattern :</label>
                                         <select class="form-control" v-model="maskPattern">

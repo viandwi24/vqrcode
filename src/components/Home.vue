@@ -29,10 +29,10 @@
             <div class="card-header">About Author</div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-sm-12 text-center">
                         <img class="img-fluid rounded-circle avatar" src="https://avatars0.githubusercontent.com/u/41994283?s=460&v=4">
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-lg-9 col-sm-12">
                         <table>
                             <tr>
                                 <td>Name</td>
