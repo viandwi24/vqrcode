@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './App.vue'
+import AppComponent from './App.vue'
 import VueQrcodeReader from "vue-qrcode-reader"
 import VueQrcode from '@chenfengyuan/vue-qrcode'
 
@@ -16,7 +16,7 @@ Vue.use(VueQrcodeReader);
 Vue.component(VueQrcode.name, VueQrcode);
 Vue.config.productionTip = false
 
-var app = new Vue({
+new Vue({
   router,
-  render: h => h(App),
+  render: h => h(AppComponent),
 }).$mount('#app')
