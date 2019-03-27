@@ -16,7 +16,7 @@ Vue.use(VueQrcodeReader);
 Vue.component(VueQrcode.name, VueQrcode);
 Vue.config.productionTip = false
 
-new Vue({
+var app = new Vue({
   router,
   render: h => h(App),
 }).$mount('#app')

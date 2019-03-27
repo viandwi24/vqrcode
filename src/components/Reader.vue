@@ -6,8 +6,8 @@
                     {{ error }}
                 </div>
             </div>
-            <div class="col-8">
-                <qrcode-stream :camera="camera" @decode="onDecode" @init="onInit" v-if="qrreader" />
+            <div class="col-8" v-if="error == ''">
+                <qrcode-stream :track="repaint" :camera="camera" @decode="onDecode" @init="onInit" v-if="qrreader" />
             </div>
             <div class="col-4">
                 <div v-if="waiting">
@@ -16,7 +16,7 @@
                 <div v-else>
                     <div v-if="error == ''">
                         <p>Result :<br>{{ result }}</p>
-                    <button @click="forceRerender" class="btn btn-sm btn-primary">Re-scan</button>
+                        <button @click="forceRerender" class="btn btn-sm btn-primary">Re-scan</button>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ export default {
                 ctx.fillStyle = '#007bff'
 
                 pointArray.forEach(({ x, y }) => {
-                ctx.fillRect(x - 5, y - 5, 10, 10)
+                ctx.fillRect(x - 10, y - 10, 20, 20)
                 })
             }
         },

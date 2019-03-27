@@ -1,6 +1,6 @@
 # VQRCode
 
-![screenshot preview](https://raw.githubusercontent.com/viandwi24/vqrcode/master/Screenshot%20from%202019-03-27%2012-11-24.png)
+![screenshot preview](https://raw.githubusercontent.com/viandwi24/vqrcode/master/Screenshot%20from%202019-03-27%2017-05-08.png)
 
 
 ## Demo
@@ -11,7 +11,7 @@
 git clone https://github.com/viandwi24/vqrcode
 cd vqrcode
 npm install
-npm  run serve
+npm run serve
 ```
 
 ## What is used ?
