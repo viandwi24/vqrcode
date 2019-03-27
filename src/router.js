@@ -9,6 +9,7 @@ import ReaderComponent from './components/Reader.vue'
 Vue.use(VueRouter)
 
 const routes = new VueRouter({
+    // base: '/vqrcode',
     mode: 'history',
     routes: [
         {
